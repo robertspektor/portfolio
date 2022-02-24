@@ -1,0 +1,10 @@
+{
+  "name": "RobertSpektor",
+  "short_name": "RobertSpektor",
+  "display": "standalone",
+  "background_color" : "#0D1117",
+  "description": "",
+  "related_applications": [{
+    "platform": "Web"
+  }]
+}
