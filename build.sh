@@ -1,6 +1,6 @@
 #!/bin/sh
 
-npm install
+npm install --only=prod
 npm run build
 
 chown root:www-data -R .
