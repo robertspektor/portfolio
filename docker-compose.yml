@@ -11,7 +11,7 @@ services:
 
   portfolio_webserver:
     build: docker/nginx
-    image: robertspektor_nginx
+    image: portfolio_nginx
     tty: true
     volumes:
       - ./:/var/www/portfolio:cached
