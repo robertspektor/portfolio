@@ -14,7 +14,7 @@ services:
     image: robertspektor_nginx
     tty: true
     volumes:
-      - ./:/var/www/robertspektor:cached
+      - ./:/var/www/portfolio:cached
       - traefik-certificates:/letsencrypt
     networks:
       - traefik-public
