@@ -9,9 +9,8 @@ networks:
 
 services:
 
-  webserver:
+  portfolio_webserver:
     build: docker/nginx
-    container_name: webserver
     image: robertspektor_nginx
     tty: true
     volumes:
