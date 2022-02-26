@@ -1,6 +1,6 @@
 #!/bin/sh
 
 npm install --production
-npm run build
+vite build
 
 chown root:www-data -R .
