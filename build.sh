@@ -1,6 +1,7 @@
 #!/bin/sh
+npm install -g vue-cli
 
 npm install --production
-vite build
+npm run build
 
 chown root:www-data -R .
