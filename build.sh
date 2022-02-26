@@ -1,5 +1,5 @@
 #!/bin/sh
-npm install -g vue-cli
+npm install -g vue-tsc
 
 npm install --production
 npm run build
